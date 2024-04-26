@@ -1,0 +1,14 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+    --Navy: #28283D;
+    --Grey: #87879D;
+    --DarkMint: #4D96A9;
+    --MidMint: #71C0D4;
+    --Mint: #8FE3F9;
+    --Violet: #855FB1;
+    --MidViolet: #B18BDD;
+    --LightViolet: #D9B8FF;
+    --LightGrey: #DFDFDF;
+    --TextLight: #FAFAFA;
+  }
