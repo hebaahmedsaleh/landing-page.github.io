@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Download v1.3
-  What is it?
+    <title>Frontend Mentor | Meet landing page</title>
 
-  01
-  Built for modern use
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  Smarter meetings, all in one place
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <img src="./assets/logo.svg" class="logo" alt="logo" />
+      </header>
+      <section class="hero-cover">
+        <div class="hero-left-cover"></div>
+        <div class="hero-middle-cover">
+          <h1>Group Chat for Everyone</h1>
+          <p>
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+          <div>
+            <button class="btn-type2 redhat-semi-condensed-medium">
+              <span>Download</span>
+              <span class="version">v1.3</span>
+            </button>
+      
+            <button class="btn-type2 redhat-semi-condensed-medium">
+              What is it?
+            </button>
+          </div>
+        </div>
+        <div class="hero-right-cover">
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
 
-  Download v1.3
-</body>
+     
+        </div>
+      </section>
+
+
+      <!-- 01 Built for
+      modern use Smarter meetings, all in one place Send messages, share files,
+      show your screen, and record your meetings — all in one workspace. Control
+      who can join with invite-only team access, data encryption, and data
+      export. 02 -->
+    </main>
+
+    <footer class="footer">
+      <section class="footer-container">
+        <h1 class="footer-title redhat-semi-condensed-bold">
+          Experience more together
+        </h1>
+        <p class="footer-desc redhat-semi-condensed-thin">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+
+        <button class="btn-type2 redhat-semi-condensed-medium">
+          <span>Download</span>
+          <span class="version">v1.3</span>
+        </button>
+      </section>
+    </footer>
+  </body>
 </html>
