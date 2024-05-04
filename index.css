@@ -55,28 +55,50 @@ body {
     height: 22.375rem;
     display: flex;
     width: 100%;
+    position: relative;
   }
 
   .hero-middle-cover {
     display: flex;
-    flex: 1;
+    flex: 2;
     flex-direction: column;
+    align-items: center;
+    margin: 1.25rem;
+  }
 
+  .hero-middle-cover__main {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero-right-cover {
-    background: url("./assets/desktop/image-hero-right.png")  no-repeat;
+    background: url("./assets/desktop/image-hero-right.png") no-repeat;
     height: 100%;
     flex: 1;
-
+  }
+  
+  .hero-left-cover {
+    background: url("./assets/desktop/image-hero-left.png") no-repeat;
+    height: 100%;
+    flex: 1;
+    background-size: contain;
+    position: relative;
+    right: 3rem
   }
 
-  .hero-left-cover {
-    background: url("./assets/desktop/image-hero-left.png")  no-repeat;
-    height: 100%;
-    flex: 1;
+  .hero-middle-cover__title {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--Navy);
+    max-width: 65%;
+  }
 
-
+  .hero-middle-cover__desc {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    color: var(--Grey);
   }
 
   .footer::after {
@@ -104,7 +126,7 @@ body {
 
   .footer-container {
     margin: 0 auto;
-    /* max-width: 80%; */
+    max-width: 69.375rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -113,7 +135,7 @@ body {
 
   .btn-type2 {
     outline: 0;
-    padding: 1rem;
+    padding: .5rem 1rem;
     border-radius: 4rem;
     background-color: var(--Violet);
     border: 0;
@@ -126,12 +148,26 @@ body {
     cursor: pointer;
   }
 
+  .btn-type3 {
+    background-color: var(--DarkMint);
+    margin-right: .5rem;
+  }
+
+  .btn-type3:hover {
+    background-color: var(--Mint);
+  }
+
   .version {
     color: var(--LightViolet);
   }
+  .btn-type3 > .version {
+    color: var(--MidMint);
+
+  }
+  
 
   .footer-title {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     color: var(--White);
     z-index: 1;
     max-width: 21.875rem;
