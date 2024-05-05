@@ -29,7 +29,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   main {
-    padding: 6.25rem 0 0 0;
+    padding: 8rem 0 0 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ body {
     text-align: center;
     width: 100%;
     top: 0;
-    height: 10%;
+    height: 12%;
     position: fixed;
     background: var(--White);
     color: var(--White);
@@ -89,7 +89,7 @@ body {
     flex: 1;
     background-size: contain;
     position: relative;
-    right: 3rem;
+    right: 4rem;
   }
 
   .hero-middle-cover__title {
@@ -185,12 +185,13 @@ body {
 
   .btn-type2 {
     outline: 0;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     border-radius: 4rem;
     background-color: var(--Violet);
     border: 0;
     z-index: 1;
     color: var(--White);
+    font-size: 1.25rem;
   }
 
   .btn-type2:hover {
