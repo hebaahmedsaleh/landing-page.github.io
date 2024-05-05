@@ -30,11 +30,11 @@ body {
 @media screen and (min-width: 1025px) {
   main {
     margin-top: 4rem;
-    padding: 8rem 0 0 0;
+    padding: 3rem 0 0 0;
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
   }
 
   .header {
@@ -110,7 +110,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 3rem;
   }
 
   .content-imgs {
@@ -151,6 +151,37 @@ body {
     font-size: 1.125rem;
     color: var(--Grey);
     text-align: center;
+  }
+
+  .separator {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 24px;
+    z-index: 3;
+
+  }
+
+  .separator__line {
+    height: 5.25rem;
+    width: 0.0625rem;
+    background-color: var(--Grey);
+  }
+
+  .separator__circle {
+    height: 3rem;
+    width: 3rem;
+    border: 0.125rem solid rgba(134, 134, 156, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Grey);
+    font-weight: bold;
+        background: white;
   }
 
   .footer::after {
