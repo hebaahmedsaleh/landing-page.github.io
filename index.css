@@ -309,6 +309,11 @@ main {
 }
 
 @media screen and (max-width: 475px) {
+
+  .tablet__hero-cover {
+    height: 12rem;
+  }
+
   .hero-middle-cover {
     text-align: center;
   }
