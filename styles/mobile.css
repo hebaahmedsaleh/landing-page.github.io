@@ -1,0 +1,44 @@
+@media screen and (max-width: 475px) {
+
+  .tablet__hero-cover {
+    height: 12rem;
+  }
+
+  .hero-middle-cover {
+    text-align: center;
+  }
+
+  .hero-middle-cover__title {
+    font-size: 2rem;
+  }
+
+  .hero-middle-cover__desc {
+    font-size: 0.75rem;
+  }
+
+  .btns__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-type2.btn-type3 {
+    margin-bottom: 1rem;
+  }
+
+  .imgs-container {
+    text-align: center;
+  }
+
+  .main-content__body {
+    max-width: 70%;
+  }
+
+  .main-content__title {
+    font-size: 2rem;
+  }
+
+  .main-content__desc {
+    font-size: 0.75rem;
+
+  }
+}
